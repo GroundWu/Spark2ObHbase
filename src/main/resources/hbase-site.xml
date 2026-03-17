@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<!--
+  OBKV-HBase 连接配置模板。
+  直连模式：填写 paramURL、fullUserName、password、sysUserName、sysPassword。
+  云上模式：填写 fullUserName、password、odpAddr、odpPort、odpMode、database。
+  paramURL 中的 & 需写成 &amp;，否则解析失败。
+-->
+<configuration>
+  <!-- OceanBase HBase 实现类 -->
+  <property>
+    <name>hbase.client.connection.impl</name>
+    <value>com.alipay.oceanbase.hbase.util.OHConnectionImpl</value>
+  </property>
+
+  <!-- 直连模式示例 -->
+  <property>
+    <name>hbase.oceanbase.paramURL</name>
+    <value></value>
+  </property>
+  <property>
+    <name>hbase.oceanbase.fullUserName</name>
+    <value></value>
+  </property>
+  <property>
+    <name>hbase.oceanbase.password</name>
+    <value></value>
+  </property>
+  <property>
+    <name>hbase.oceanbase.sysUserName</name>
+    <value></value>
+  </property>
+  <property>
+    <name>hbase.oceanbase.sysPassword</name>
+    <value></value>
+  </property>
+
+  <!-- 云上模式（若使用直连，可注释以下 4 项） -->
+  <!--
+  <property>
+    <name>hbase.oceanbase.odpAddr</name>
+    <value></value>
+  </property>
+  <property>
+    <name>hbase.oceanbase.odpPort</name>
+    <value>3307</value>
+  </property>
+  <property>
+    <name>hbase.oceanbase.odpMode</name>
+    <value>true</value>
+  </property>
+  <property>
+    <name>hbase.oceanbase.database</name>
+    <value>test</value>
+  </property>
+  -->
+</configuration>
