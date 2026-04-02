@@ -1,6 +1,6 @@
 # Spark 读写 OBKV-HBase Demo
 
-基于 [Spark 使用 OBKV-HBase 指导文档](https://yuque.antfin.com/ob/gtuwei/gy6qcznx653mqklu) 编写的示例工程，演示使用 Spark 通过 OBKV-HBase 访问 OceanBase 宽表（写后读、Spark SQL 读）。
+基于 [Spark 使用 OBKV-HBase 指导文档](https://www.oceanbase.com/docs/common-oceanbase-database-cn-1000000005280324) 编写的示例工程，演示使用 Spark 通过 OBKV-HBase 访问 OceanBase 宽表（写后读、Spark SQL 读）。
 
 ## 前提条件
 
@@ -138,6 +138,6 @@ mvn exec:java -Dexec.mainClass="com.example.spark.obkv.SparkObkvHBaseDemo" -Dspa
 
 ## 参考
 
-- 语雀文档：[Spark 使用 OBKV-HBase 指导文档](https://yuque.antfin.com/ob/gtuwei/gy6qcznx653mqklu)
+- 语雀文档：[Spark 使用 OBKV-HBase 指导文档](https://www.oceanbase.com/docs/common-oceanbase-database-cn-1000000005280324)
 - [使用 OBKV-HBase 客户端连接集群](https://www.oceanbase.com/docs/common-oceanbase-database-cn-1000000002022354)
 - [OBKV-HBase 数据操作示例](https://www.oceanbase.com/docs/common-oceanbase-database-cn-1000000002022353)
