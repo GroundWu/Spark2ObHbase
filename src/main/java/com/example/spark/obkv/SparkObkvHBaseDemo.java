@@ -27,7 +27,6 @@ import org.apache.hadoop.hbase.spark.HBaseContext;
 
 /**
  * Spark 读写 OBKV-HBase 示例。
- * 参考文档：https://yuque.antfin.com/ob/gtuwei/gy6qcznx653mqklu
  *
  * 运行前请确保：
  * 1. 已在 OceanBase 中创建表（见 README 建表 SQL）
